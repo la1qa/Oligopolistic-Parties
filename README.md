@@ -1,10 +1,19 @@
-# Oligopolistic-Parties
-Project on Markov Chains for the Modelling and Simulation course.
+# Modelització de sistemes electorals amb cadenes de Markov
 
-`dataset/*` : dades carregades directament d'[IDESCAT](https://www.idescat.cat/pub/?id=elepc&n=6011&t=202400)
+Projecte sobre cadenes de Markov per a l’assignatura de Modelització i Simulació.
 
-`data.csv` : dades processades amb columnes els partits, i files els anys. Processament a `data_processing.ipynb`
+### Organització del repositori
 
-`main.ipynb` : anàlisi amb Cadenes de Markov
+- `dataset/*`  
+  Dades originals descarregades directament d’[IDESCAT](https://www.idescat.cat/pub/?id=elepc&n=6011&t=202400), corresponents als resultats electorals a Catalunya de l'any 1980 al 2024.
 
+- `data_processing.ipynb`  
+  Notebook de preprocessament i transformació de les dades. Inclou neteja, agregació de partits i construcció del conjunt de dades final.
 
+- `data.csv`  
+  Dades processades en format tabular, amb els partits com a variables i els anys electorals com a observacions.
+
+- `main.ipynb`  
+  Anàlisi principal basada en cadenes de Markov per a la modelització de l’evolució temporal del sistema electoral.
+
+## Resultats
